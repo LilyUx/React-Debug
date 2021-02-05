@@ -1,0 +1,332 @@
+[
+	{
+		"path": "$ROOTPATH$\\src\\react\\packages\\react-reconciler\\src\\ReactInternalTypes.js",
+		"bookmarks": [
+			{
+				"line": 46,
+				"column": 21,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\src\\react\\packages\\react-reconciler\\src\\ReactFiberFlags.js",
+		"bookmarks": [
+			{
+				"line": 9,
+				"column": 68,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\src\\react\\packages\\react-reconciler\\src\\ReactWorkTags.js",
+		"bookmarks": [
+			{
+				"line": 9,
+				"column": 21,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\src\\react\\packages\\react-dom\\src\\client\\ReactDOMLegacy.js",
+		"bookmarks": [
+			{
+				"line": 174,
+				"column": 42,
+				"label": ""
+			},
+			{
+				"line": 193,
+				"column": 46,
+				"label": ""
+			},
+			{
+				"line": 293,
+				"column": 23,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\src\\react\\packages\\react-reconciler\\src\\ReactFiberReconciler.old.js",
+		"bookmarks": [
+			{
+				"line": 249,
+				"column": 32,
+				"label": ""
+			},
+			{
+				"line": 298,
+				"column": 47,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\src\\react\\packages\\react-reconciler\\src\\ReactUpdateQueue.old.js",
+		"bookmarks": [
+			{
+				"line": 105,
+				"column": 30,
+				"label": ""
+			},
+			{
+				"line": 183,
+				"column": 28,
+				"label": ""
+			},
+			{
+				"line": 197,
+				"column": 0,
+				"label": ""
+			},
+			{
+				"line": 310,
+				"column": 35,
+				"label": ""
+			},
+			{
+				"line": 395,
+				"column": 42,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\src\\react\\packages\\react-reconciler\\src\\ReactFiberWorkLoop.old.js",
+		"bookmarks": [
+			{
+				"line": 516,
+				"column": 3,
+				"label": ""
+			},
+			{
+				"line": 978,
+				"column": 38,
+				"label": ""
+			},
+			{
+				"line": 1503,
+				"column": 56,
+				"label": ""
+			},
+			{
+				"line": 1572,
+				"column": 25,
+				"label": ""
+			},
+			{
+				"line": 1658,
+				"column": 53,
+				"label": ""
+			},
+			{
+				"line": 1669,
+				"column": 11,
+				"label": ""
+			},
+			{
+				"line": 1898,
+				"column": 27,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\src\\react\\packages\\react\\src\\ReactBaseClasses.js",
+		"bookmarks": [
+			{
+				"line": 56,
+				"column": 23,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\src\\react\\packages\\react-reconciler\\src\\ReactFiberClassComponent.old.js",
+		"bookmarks": [
+			{
+				"line": 194,
+				"column": 1,
+				"label": ""
+			},
+			{
+				"line": 196,
+				"column": 44,
+				"label": ""
+			},
+			{
+				"line": 298,
+				"column": 36,
+				"label": ""
+			},
+			{
+				"line": 572,
+				"column": 10,
+				"label": ""
+			},
+			{
+				"line": 583,
+				"column": 32,
+				"label": ""
+			},
+			{
+				"line": 818,
+				"column": 28,
+				"label": ""
+			},
+			{
+				"line": 1111,
+				"column": 11,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\src\\react\\packages\\react-reconciler\\src\\ReactFiberBeginWork.old.js",
+		"bookmarks": [
+			{
+				"line": 235,
+				"column": 34,
+				"label": ""
+			},
+			{
+				"line": 706,
+				"column": 33,
+				"label": ""
+			},
+			{
+				"line": 859,
+				"column": 30,
+				"label": ""
+			},
+			{
+				"line": 3099,
+				"column": 0,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\src\\react\\packages\\react-reconciler\\src\\ReactFiberHooks.old.js",
+		"bookmarks": [
+			{
+				"line": 342,
+				"column": 50,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\src\\react\\packages\\react-reconciler\\src\\ReactChildFiber.old.js",
+		"bookmarks": [
+			{
+				"line": 273,
+				"column": 50,
+				"label": ""
+			},
+			{
+				"line": 771,
+				"column": 20,
+				"label": ""
+			},
+			{
+				"line": 1313,
+				"column": 31,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\src\\react\\packages\\react\\src\\ReactElement.js",
+		"bookmarks": [
+			{
+				"line": 148,
+				"column": 33,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\src\\react\\packages\\react-dom\\src\\events\\SyntheticEvent.js",
+		"bookmarks": [
+			{
+				"line": 141,
+				"column": 1,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\src\\react\\packages\\react-reconciler\\src\\ReactFiberWorkLoop.new.js",
+		"bookmarks": [
+			{
+				"line": 975,
+				"column": 38,
+				"label": ""
+			},
+			{
+				"line": 1647,
+				"column": 31,
+				"label": ""
+			},
+			{
+				"line": 1654,
+				"column": 53,
+				"label": ""
+			},
+			{
+				"line": 1682,
+				"column": 24,
+				"label": ""
+			},
+			{
+				"line": 1789,
+				"column": 8,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\src\\react\\packages\\react-reconciler\\src\\ReactFiberBeginWork.new.js",
+		"bookmarks": [
+			{
+				"line": 238,
+				"column": 33,
+				"label": ""
+			},
+			{
+				"line": 3083,
+				"column": 18,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\src\\react\\packages\\react-reconciler\\src\\ReactFiberCompleteWork.new.js",
+		"bookmarks": [
+			{
+				"line": 242,
+				"column": 10,
+				"label": ""
+			},
+			{
+				"line": 801,
+				"column": 22,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$\\src\\react\\packages\\react-dom\\src\\client\\ReactDOMHostConfig.js",
+		"bookmarks": [
+			{
+				"line": 414,
+				"column": 28,
+				"label": ""
+			}
+		]
+	}
+]

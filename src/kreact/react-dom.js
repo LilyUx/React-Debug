@@ -35,9 +35,9 @@ function render(vnode, container) {
   wipRoot = {
     stateNode: container,
     props: {
-      children: [vnode]
+      children: [vnode],
     },
-    base: currentRoot
+    base: currentRoot,
   };
   nextUnitOfWork = wipRoot;
   deletions = [];
@@ -99,8 +99,8 @@ function updateNode(node, prevVal, nextVal) {
   // 如果说prevVal里没有， nextVal有，这个时候不用管
 
   Object.keys(prevVal)
-    .filter(k => k !== "children")
-    .forEach(k => {
+    .filter((k) => k !== "children")
+    .forEach((k) => {
       // ! 源码中的合成事件下节课讲，源码当中用到了事件代理，这里瞎写一下
       if (k.slice(0, 2) === "on") {
         // 简单粗暴 这是个事件
@@ -114,8 +114,8 @@ function updateNode(node, prevVal, nextVal) {
     });
 
   Object.keys(nextVal)
-    .filter(k => k !== "children")
-    .forEach(k => {
+    .filter((k) => k !== "children")
+    .forEach((k) => {
       // ! 源码中的合成事件下节课讲，源码当中用到了事件代理，这里瞎写一下
       if (k.slice(0, 2) === "on") {
         // 简单粗暴 这是个事件
@@ -197,7 +197,7 @@ function reconcileChildren(returnFiber, newChildren) {
       stateNode: oldFiber.stateNode,
       base: oldFiber,
       return: returnFiber,
-      effectTag: UPDATE
+      effectTag: UPDATE,
     };
     lastPlacedIndex = placeChild(
       newFiber,
@@ -222,7 +222,7 @@ function reconcileChildren(returnFiber, newChildren) {
     while (oldFiber) {
       deletions.push({
         ...oldFiber,
-        effectTag: DELETION
+        effectTag: DELETION,
       });
       oldFiber = oldFiber.sibling;
     }
@@ -239,7 +239,7 @@ function reconcileChildren(returnFiber, newChildren) {
         stateNode: null,
         base: null,
         return: returnFiber,
-        effectTag: PLACEMENT
+        effectTag: PLACEMENT,
       };
       lastPlacedIndex = placeChild(
         newFiber,
@@ -269,7 +269,7 @@ function reconcileChildren(returnFiber, newChildren) {
       key: newChild.key,
       type: newChild.type,
       props: newChild.props,
-      return: returnFiber
+      return: returnFiber,
       // stateNode: null,
       // base: null,
       // effectTag: PLACEMENT
@@ -285,7 +285,7 @@ function reconcileChildren(returnFiber, newChildren) {
         ...newFiber,
         stateNode: matchedFiber.stateNode,
         base: matchedFiber,
-        effectTag: UPDATE
+        effectTag: UPDATE,
       };
       // 找到就要删除链表上的元素，防止重复查找
       shouldTrackSideEffects &&
@@ -295,7 +295,7 @@ function reconcileChildren(returnFiber, newChildren) {
         ...newFiber,
         stateNode: null,
         base: null,
-        effectTag: PLACEMENT
+        effectTag: PLACEMENT,
       };
     }
     lastPlacedIndex = placeChild(
@@ -313,10 +313,10 @@ function reconcileChildren(returnFiber, newChildren) {
   }
 
   if (shouldTrackSideEffects) {
-    existingChildren.forEach(child =>
+    existingChildren.forEach((child) =>
       deletions.push({
         ...child,
-        effectTag: DELETION
+        effectTag: DELETION,
       })
     );
   }
@@ -482,21 +482,21 @@ export function useState(init) {
   const hook = oldHook
     ? {
         state: oldHook.state,
-        queue: oldHook.queue
+        queue: oldHook.queue,
       }
     : {state: init, queue: []};
 
   // 更新hook.state
   // 这里模拟一下批量更新
-  hook.queue.forEach(action => (hook.state = action));
+  hook.queue.forEach((action) => (hook.state = action));
 
-  const setState = action => {
+  const setState = (action) => {
     // 每次执行setState，接收新的action，这里存到数组，因为等下要批量更新，执行遍历
     hook.queue.push(action);
     wipRoot = {
       stateNode: currentRoot.stateNode,
       props: currentRoot.props,
-      base: currentRoot
+      base: currentRoot,
     };
     nextUnitOfWork = wipRoot;
     deletions = [];
